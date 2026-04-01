@@ -2,6 +2,13 @@
 
 Projeto acadêmico de arquitetura de microsserviços aplicado em um sistema de e-commerce.
 
+##Repositórios dos serviços
+`https://github.com/markinog/product-prova1/tree/main` - usuário
+`https://github.com/markinog/user-prova1/tree/main ` - produto
+`https://github.com/markinog/inventory-prova1/blob/main/README.md` - estoque
+`https://github.com/markinog/payment-prova1/blob/main/README.md` - pagamento
+`https://github.com/markinog/order-prova1/blob/main/README.md` - pedido 
+
 ## Arquitetura
 
 O sistema é composto por 5 microsserviços independentes:
