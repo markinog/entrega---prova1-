@@ -142,7 +142,7 @@ curl -X POST http://localhost:8081/products \
   }'
 
 # 2. Criar usuário
-curl -X POST http://localhost:8082/users \
+curl -X POST http://localhost:8082/user \
   -H "Content-Type: application/json" \
   -d '{
     "name": "João Silva",
@@ -158,7 +158,7 @@ curl -X PUT http://localhost:8083/inventory/{productId} \
   }'
 
 # 4. Criar pedido (use userId e productId)
-curl -X POST http://localhost:8085/orders \
+curl -X POST http://localhost:8085/order \
   -H "Content-Type: application/json" \
   -d '{
     "userId": "userId aqui",
