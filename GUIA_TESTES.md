@@ -171,22 +171,6 @@ curl -X POST http://localhost:8085/order \
 
 ---
 
-## Verificando nos Logs
-
-Cada microsserviço exibe logs informativos. Exemplo do Order Service:
-
-```
-Iniciando criação de pedido para usuário: 675abc123...
-Produto encontrado: Notebook Dell Inspiron - R$ 3500.00
-Estoque disponível: 50 unidades
-Pedido criado com ID: 675def456... - Total: R$ 7450.00
-Pagamento processado: 675ghi789... - Status: APROVADO
-Pagamento aprovado! Atualizando estoque...
-Estoque atualizado para produto 675abc123...: 48 unidades
-```
-
----
-
 ## Verificando no MongoDB Compass
 
 Conecte-se aos bancos de dados:
